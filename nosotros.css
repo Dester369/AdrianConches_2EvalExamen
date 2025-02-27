@@ -1,0 +1,55 @@
+
+@font-face{
+    font-family: 'Poppins';
+    src: url(fuentes/Poppins\,Potta_One/Poppins/Poppins-Bold.ttf);
+ }
+body{
+    background-color: rgb(64, 157, 219);
+   
+ }
+ h1{
+    font-family: Poppins;
+    text-align: center;
+    color: white;
+    text-shadow: 6px 0px 2px blue;
+    font-size: 30px;
+    margin-top: 20px;
+ }
+
+div.menu{
+    text-align: center;
+    background-color: rgb(120, 182, 223);
+    padding: 1%;
+    border: 5px solid blue;
+    border-style: dotted ;
+}
+a{
+    border: 2px solid blue;
+    color: white;
+    background-color: rgb(64, 157, 219);   
+   
+}
+
+a:hover{
+    background-color: purple;
+
+}
+
+form{
+    background-color: blue;
+    color: white;
+    float: right;
+    width: 45%;
+    margin-right: 5%;
+    margin-top: 5%;
+    
+}
+
+
+
+footer{
+    text-align: center;
+    margin-top: 10%;
+    background-color: rgb(120, 182, 223);
+    color: orangered;
+}
